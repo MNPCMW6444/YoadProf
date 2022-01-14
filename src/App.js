@@ -63,14 +63,14 @@ function App() {
 
   return (
     <div className="App">
-      <p>
+      <h1>
         הקלד מטבע:{" "}
         <input
           placeholder="למשל LOVE או BTC"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         ></input>
-      </p>
+      </h1>
       {genprice && (
         <h1>
           מחיר ה-{input2} הוא {genprice}
